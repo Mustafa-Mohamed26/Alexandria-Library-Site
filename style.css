@@ -1,3 +1,4 @@
+/* body standard*/
 * {
   margin: 0;
   padding: 0;
@@ -6,20 +7,26 @@ body {
   min-height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* header and navbar style*/
+
+header {
+    background-image: url(./images/Alex\ lyb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .logo{
     width: 100px;
     height: auto;
 }
-
-header {
-  background-image: url(./images/Alex\ lyb.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 nav {
   background-color: white;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 nav ul {
   width: 100%;
@@ -27,6 +34,7 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  
 }
 nav li {
   height: 50px;
@@ -41,10 +49,13 @@ nav a {
 }
 nav a:hover {
   background-color: #f0f0f0;
+  border-radius: 60px;
+
 }
 nav li:first-child {
   margin-right: auto;
 }
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -81,3 +92,5 @@ nav li:first-child {
     width: 100%;
   }
 }
+
+/* header and navbar ends*/
