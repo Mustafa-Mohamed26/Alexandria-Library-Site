@@ -11,10 +11,7 @@ body {
 /* header and navbar style*/
 
 header {
-    background-image: url(./images/Alex\ lyb.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: rgb(60, 199, 246);
     padding: 15px;
 }
 .logo{
@@ -93,6 +90,40 @@ nav li:first-child {
   .sidebar {
     width: 100%;
   }
+}
+
+.header-info{
+  margin: 35px;
+  padding: 30px;
+  border: 5px solid white;
+  border-radius: 16px;
+  box-shadow: 10px 2px 10px 8px rgba(0, 0, 0, 0.1);
+  display: grid;
+}
+.header-container{
+  grid-row: auto;
+  grid-column: auto;
+}
+.header-inner-left h1{
+  font-size: 4rem;
+  color: white;
+  text-align: left;
+}
+.header-inner-left p{
+  font-size: 1.5em;
+  color: white;
+  text-align: left;
+}
+
+.header-inner-right{
+  text-align: right;
+}
+.header-img{
+  border-radius: 30px;
+  box-shadow: 10px 2px 10px 8px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  height: auto;
+  width: auto;
 }
 
 /* header and navbar ends*/
