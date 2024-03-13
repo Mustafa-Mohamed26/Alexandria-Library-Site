@@ -54,6 +54,7 @@ nav a:hover {
 }
 nav li:first-child {
   margin-right: auto;
+  width: auto;
 }
 
 .sidebar {
