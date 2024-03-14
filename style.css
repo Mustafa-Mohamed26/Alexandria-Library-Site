@@ -262,3 +262,39 @@ nav li:first-child {
 
 /* End Footer */
 
+.fact {
+  color: rgb(41, 41, 220);
+  border: 2px solid black;
+  padding: 6px;
+
+
+}
+
+.fact2 {
+
+  color: rgb(16, 16, 108);
+  font-size: 16px;
+  font-style: inherit;
+  background-color: rgb(166, 212, 228);
+  padding: 15px;
+
+}
+
+.image {
+  margin: 25px 25px 75px 100px;
+}
+
+.alex {
+  font-size: 50px;
+  color: rgb(18, 18, 142);
+  text-align: left
+}
+
+.history {
+  font-style: unset;
+  font-size: 18px;
+  color: rgb(18, 18, 142);
+  text-align: left;
+  background-color: rgb(166, 212, 228);
+  padding: 10px;
+}
