@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      :root {
+        --section-padding: 20px; /* Example value */
+        --main-color: #007bff; /* Example value */
+      }
+    </style>
   </head>
   <body>
     <!-- header mustafa -->
@@ -47,50 +53,38 @@
       <!-- section 1 mariam-->
       <section></section>
 
-      <main>
         <!-- section 2 veronia-->
         <section class="w3-container w3-center band-section">
           <h2 class="w3-wide">Opening Hours</h2>
           <p class="w3-opacity"><i></i></p>
         </section>
 
-        <div class="white-frame"> <!-- Add a div with the class name 'white-frame' -->
-          <section class="w3-container w3-content w3-center band-section open-hours">
-            <p class="w3-justify">
-              On the occasion of the holy month of Ramadan, the BA will open Saturdays to Thursdays, from 10:00 am to 2:00 pm.
-            </p>
-          </section>
-          <section class="band-section open-hours video-section">
 
-            <!-- Container for video and image -->
+      <div class="row">
+        <div class="column side">
+          <h3>BA YouTube Channel </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+          <a href="https://www.youtube.com/user/BAchannel" target="_blank">
+            <img src="bayoutube.jpg" alt="Image Description" width="323" height="245">
+          </a>
+        </div>
 
-            <div class="media-container">
-              <!-- Video element -->
-              <div class="video-container">
-                <h3>BA in the media</h3>
-                <iframe width="323" height="245" src="https://www.youtube.com/embed/lnMjPvUZtWA" frameborder="0" allowfullscreen></iframe>
-              </div>
+        <div class="column middle">
+          <h2>Main Content</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        </div>
 
-              <!-- Image -->
-              <div class="image-container">
-                <h3>BA YouTube Channel </h3>
-                <a href="https://www.youtube.com/user/BAchannel" target="_blank">
-                  <img src="bayoutube.jpg" alt="Image Description" width="323" height="245">
-                </a>
-              </div>
-            </div>
-          </section>
-        </div> <!-- Close the div with class 'white-frame' -->
-      </main>
+        <div class="column side">
+          <h2>Side</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+            <h3>BA in the media</h3>
+            <iframe width="323" height="245" src="https://www.youtube.com/embed/lnMjPvUZtWA" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
 
-      <!-- footer emad-->
 
-      <!-- footer emad -->
-      <footer>
-        <p>Iam Emad</p>
-      </footer>
     </main>
-
     <script src="index.js"></script>
   </body>
 </html>

@@ -144,7 +144,7 @@ nav li:first-child {
   background-color: rgb(213, 222, 227);
 }
 
-/* Centering the video section */
+
 .video-section {
   display: flex;
   flex-direction: column;
@@ -152,31 +152,31 @@ nav li:first-child {
   background-color: white;
 }
 
-/* Container for the video and image */
+
 .media-container {
   display: flex;
-  justify-content: space-between; /* Ensure space between the video and image */
-  max-width: 600px; /* Adjust the max width as needed */
+  justify-content: space-between;
+  max-width: 600px;
   width: 100%;
 }
 
-/* Styles for the video container */
+
 .video-container {
-  flex: 1; /* Occupy available space */
+  flex: 1;
 }
 
-/* Adjustments for the iframe within the video container */
+
 .video-container iframe {
-  width: 100%; /* Ensure video fills the container */
+  width: 100%;
 }
 
-/* Styles for the image container */
+
 .image-container {
-  flex: 1; /* Occupy available space */
-  margin-left: 20px; /* Adjust spacing between video and image */
+  flex: 1;
+  margin-left: 20px;
 }
 
-/* Ensure image fills the container */
+
 .image-container img {
   width: 100%;
   height: auto;
@@ -185,7 +185,31 @@ nav li:first-child {
   border: 3px solid white;
   border-radius: 16px;
   box-shadow: 10px 2px 10px 8px rgba(0, 0, 0, 0.1);
-  padding: 15px; /* Adjust the padding as needed */
+  padding: 15px;
 }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* header and navbar ends*/
+
 
 /* header and navbar ends*/
