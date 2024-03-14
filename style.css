@@ -43,6 +43,7 @@ nav a {
   display: flex;
   align-items: center;
   color: black;
+  transition: 1.1s;
 }
 nav a:hover {
   background-color: #f0f0f0;
