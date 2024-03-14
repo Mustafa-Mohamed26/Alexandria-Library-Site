@@ -144,7 +144,7 @@ nav li:first-child {
 
 /* header and navbar ends*/
 
-<<<<<<< Updated upstream
+
 .band-section {
   max-width: 600px;
   margin: 0 auto;
@@ -208,7 +208,7 @@ nav li:first-child {
   box-shadow: 10px 2px 10px 8px rgba(0, 0, 0, 0.1);
   padding: 15px; /* Adjust the padding as needed */
 }
-=======
+
 /* Start Footer */
 .footer {
   padding-top: calc(var(--section-padding) / 2);
@@ -261,4 +261,4 @@ nav li:first-child {
 }
 
 /* End Footer */
->>>>>>> Stashed changes
+
