@@ -156,7 +156,6 @@ nav li:first-child {
 }
 
 
-/* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 30%;
@@ -170,17 +169,15 @@ nav li:first-child {
 /*  clear: both;*/
 /*}*/
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
   }
 }
 
-/* Red line between video and image */
 .column.middle {
   border-left: 3px solid #696969;
-  padding-left: 20px; /* Adjust padding as needed */
+  padding-left: 20px;
 }
 .vv{
   float: left;
@@ -188,3 +185,11 @@ nav li:first-child {
   padding: 10px;
 }
 
+
+.top-left {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  font-size: 40px;
+  color: white;
+}
