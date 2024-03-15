@@ -193,3 +193,9 @@ nav li:first-child {
   font-size: 40px;
   color: white;
 }
+.about{
+  float: left;
+  width: 30%;
+  padding: 30px;
+
+}
