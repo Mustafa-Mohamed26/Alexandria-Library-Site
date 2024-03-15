@@ -195,7 +195,8 @@ nav li:first-child {
 }
 .about{
   float: left;
-  width: 30%;
-  padding: 30px;
-
+  width: 40%;
+  padding: 90px;
+  font-size: 20px;
+margin:10px ;
 }
