@@ -264,37 +264,56 @@ nav li:first-child {
 
 .fact {
   color: rgb(41, 41, 220);
-  border: 2px solid black;
-  padding: 6px;
+  text-align: center;
 
 
 }
 
 .fact2 {
-
-  color: rgb(16, 16, 108);
+  font-family: Arial, sans-serif;
   font-size: 16px;
-  font-style: inherit;
-  background-color: rgb(166, 212, 228);
-  padding: 15px;
+  line-height: 1.6;
+  color: #333;
+  font-weight: bold;
+
+  color: #007bff;
 
 }
 
-.image {
-  margin: 25px 25px 75px 100px;
+
+
+
+
+.centered-image {
+
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  margin-left: 550px;
+
+
 }
+
+
+
 
 .alex {
-  font-size: 50px;
-  color: rgb(18, 18, 142);
-  text-align: left
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #14149f;
+  text-align: center;
 }
 
+
 .history {
-  font-style: unset;
-  font-size: 18px;
-  color: rgb(18, 18, 142);
-  text-align: left;
-  background-color: rgb(166, 212, 228);
-  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: bold;
+
+  color: #007bff;
+
+
+
 }
