@@ -209,4 +209,10 @@ nav li:first-child {
   }
 }
 
-/* header and navbar ends*/
+/* Red line between video and image */
+.column.middle {
+  border-left: 3px solid #696969;
+  padding-left: 20px; /* Adjust padding as needed */
+}
+
+
