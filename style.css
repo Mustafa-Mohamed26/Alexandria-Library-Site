@@ -194,9 +194,22 @@ nav li:first-child {
   color: white;
 }
 .about{
-  float: left;
+
   width: 40%;
-  padding: 90px;
+  padding: 100px;
   font-size: 20px;
-margin:10px ;
+margin:20px ;
+  border-left: 3px solid #696969;
+  padding-left: 30px;
 }
+.library-image {
+  position: absolute;
+  top: 330px;
+  left: 1200px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
