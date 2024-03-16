@@ -1,3 +1,4 @@
+
 /* body standard*/
 * {
   margin: 0;
@@ -9,6 +10,8 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 /* body standard ends*/
+
+
 
 /* header and navbar style*/
 
@@ -143,5 +146,9 @@ header {
     height: auto;
   }
   
+
   /* header and navbar ends*/
   
+
+  /* header and navbar ends*/
+
