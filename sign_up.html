@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./CSS/footer.css"/>
+    <link rel="stylesheet" href="./CSS/header.css"/>
+    <link rel="stylesheet" href="./CSS/sign_up.css"/>
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        />
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+          <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                  viewBox="0 -960 960 960" width="26">
+                  <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg></a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="./about_us.html">About</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="./sign_up.html">Sign Up</a></li>
+          </ul>
+          <ul>
+            <li class="logo"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></li>
+            <li class="hideOnMobile"><a href="#">Blog</a></li>
+            <li class="hideOnMobile"><a href="#">Products</a></li>
+            <li class="hideOnMobile"><a href="./about_us.html">About</a></li>
+            <li class="hideOnMobile"><a href="#">Forum</a></li>
+            <li class="hideOnMobile"><a href="./sign_up.html">Sign Up</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                  viewBox="0 -960 960 960" width="26">
+                  <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg></a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+        <body>
+            <div class="signup-box">
+              <h1>Sign Up</h1>
+              <h4>It's free and only takes a minute</h4>
+              <form>
+                <label>First Name</label>
+                <input type="text" placeholder="" />
+                <label>Last Name</label>
+                <input type="text" placeholder="" />
+                <label>Email</label>
+                <input type="email" placeholder="" />
+                <label>Password</label>
+                <input type="password" placeholder="" />
+                <label>Confirm Password</label>
+                <input type="password" placeholder="" />
+                <input type="button" value="Submit" />
+              </form>
+              <p>
+                By clicking the Sign Up button,you agree to our <br />
+                <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+              </p>
+            </div>
+            <p class="para-2">
+                Already have an account? <a href="login.html">Login here</a>
+              </p>
+
+              <div class="login-box">
+                <h1>Login</h1>
+                <form>
+                  <label>Email</label>
+                  <input type="email" placeholder="" />
+                  <label>Password</label>
+                  <input type="password" placeholder="" />
+                  <input type="button" value="Submit" />
+                </form>
+              </div>
+              <p class="para-2">
+                Not have an account? <a href="signup.html">Sign Up Here</a>
+              </p>
+    </main>
+
+    <!-- Start Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="./about_us.html">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <script src="index.js"></script>
+</body>
+</html>
