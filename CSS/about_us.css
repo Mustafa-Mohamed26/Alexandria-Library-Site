@@ -192,6 +192,7 @@ pre{
   position: relative;
   max-width: 940px;
   width: 100%;
+  margin-left: 350px;
 }
 .arrow {
   position: absolute;
