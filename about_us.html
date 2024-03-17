@@ -127,7 +127,7 @@
                   <div class="card-item">
                       <a id="hhhh" title="Déclaration d’al-Azhar sur l’avenir de l’Egypte" class="thumbnail"
                          href="agenda.pdf" target="_blank"><img id="hhhhh"
-                                                                                                                                   src="./images/11.png" style="max-width:100%;"></a>
+                      src="./images/11.png" style="max-width:100%;"></a>
                       <div class="card-info">
                           <a href="#" class="card-title">Agenda</a>
                       </div>
@@ -160,7 +160,7 @@
                   <div class="card-item">
                       <a id="laaa" title="Déclaration d’al-Azhar sur l’avenir de l’Egypte" class="thumbnail"
                          href="cc.pdf" target="_blank"><img id="laaaa"
-                                                            src="./images/55.png" style="max-width:100%;"></a>
+                                                            src="./images/77.png" style="max-width:100%;"></a>
                       <div class="card-info">
                           <a href="#" class="card-title">SCL Planet Kids</a>
                       </div>
@@ -178,12 +178,33 @@
 
 
 
+
           <h2 id="old">Creators</h2>
         <pre>
           Mustafa Mohamed 2206019 Emad Mustafa 2206008 
           Mariam Mohamed 2206023 veronia wageh 2206031
         </pre>
       </section>
+        <script>
+            const prevBtn = document.querySelector('.prev');
+            const nextBtn = document.querySelector('.next');
+            const cardWrapper = document.querySelector('.card-wrapper');
+
+            const scroll = (direction) => {
+                let scrollDistance = 280;
+                if (direction === 'prev') {
+                    cardWrapper.scrollLeft -= scrollDistance;
+                } else if (direction === 'next') {
+                    cardWrapper.scrollLeft += scrollDistance;
+                }
+            };
+
+            prevBtn.addEventListener('click', () => scroll('prev'));
+            nextBtn.addEventListener('click', () => scroll('next'));
+        </script>
+
+</body>
+</html>
     </main>
 
     <!-- Start Footer -->
@@ -230,5 +251,7 @@
     </div>
   </footer>
   <!-- End Footer -->
-</body>
-</html>
+
+
+        </body>
+        </html>
