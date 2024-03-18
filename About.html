@@ -100,15 +100,29 @@
             Library of Alexandria. It aspires to be</p>
     </div>
 
-        <ul class="normal">
-            <li>The world’s window on Egypt.</li>
-            <li>Egypt’s window on the world.</li>
-            <li>A leading institution of the digital age.</li>
-            <li>A center for learning, tolerance, dialogue and understanding.</li>
+    <ul class="normal">
+        <li>The world’s window on Egypt.</li>
+        <li>Egypt’s window on the world.</li>
+        <li>A leading institution of the digital age.</li>
+        <li>A center for learning, tolerance, dialogue and understanding.</li>
 
-        </ul>
+    </ul>
+
+
 
 
 </section>
+
+<p id="demo"></p>
+
+<button onclick="clearInterval(myVar)">Stop time</button>
+
+<script>
+    let myVar = setInterval(myTimer ,1000);
+    function myTimer() {
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+    }
+</script>
 </body>
 </html>

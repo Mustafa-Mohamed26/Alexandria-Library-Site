@@ -424,6 +424,7 @@ div h2 {
     border: #1e4669 5px solid;
     margin-top: 102px;
     margin-left: 20px;
+    border-radius:20px
 
 }
 
@@ -510,4 +511,21 @@ div h2 {
     color: rgba(10, 10, 10, 0.66);
     font-family: Inter;
 
+}
+#demo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0b2760;
+    margin-top: -365px;
+    margin-left: 161px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 139px;
+    cursor: pointer;
+    margin-left: 161px;
 }
