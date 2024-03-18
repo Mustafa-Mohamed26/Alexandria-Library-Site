@@ -30,5 +30,22 @@ function showSignUp() {
   para2.style.display = "none";
 }
 
+// slider books
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+const cardWrapper = document.querySelector('.card-wrapper');
+
+const scroll = (direction) => {
+  let scrollDistance = 280;
+  if (direction === 'prev') {
+    cardWrapper.scrollLeft -= scrollDistance;
+  } else if (direction === 'next') {
+    cardWrapper.scrollLeft += scrollDistance;
+  }
+};
+
+prevBtn.addEventListener('click', () => scroll('prev'));
+nextBtn.addEventListener('click', () => scroll('next'));
+
 
 
