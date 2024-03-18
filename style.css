@@ -403,7 +403,6 @@ nav li:first-child {
 }
 
 
-
 div h2 {
     font-size: 50px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -414,12 +413,12 @@ div h2 {
     color: #2478be;
 
 
-
 }
+
 .image {
     width: 400px;
     height: 400px;
-    padding:10px;
+    padding: 10px;
     background-image: url("Alexandria Library Egypt.jpeg");
     background-size: cover;
     border: #1e4669 5px solid;
@@ -427,20 +426,88 @@ div h2 {
     margin-left: 20px;
 
 }
- .aboutalex{
-     height: 400px;
-     width: 800px;
-     font-optical-sizing: inherit;
-     margin-top: -6px;
-     margin-left: 515px;
 
-     color: #103477;
-     font-weight: 90;
-     font-family: "Inter Semi Bold";
-     font-size: 20px;
-     line-height: 40px;
+.aboutalex {
+    height: 400px;
+    width: 800px;
+    font-optical-sizing: inherit;
+    margin-top: -6px;
+    margin-left: 515px;
+
+    color: #103477;
+    font-weight: 90;
+    font-family: "Inter Semi Bold";
+    font-size: 20px;
+    line-height: 40px;
 
 
 }
 
+.overview {
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+    margin-top: 302px;
+    margin-left: 43px;
+    color: rgba(10, 10, 10, 0.66);
+}
+.overview2{
 
+    height: 20px;
+    width: 600px;
+    font-size: 18px;
+    margin-top: -51px;
+    margin-left: 45px;
+    color: rgba(10, 10, 10, 0.66);
+    font-family: Inter;
+
+}
+.mission{
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+    margin-top: 97px;
+    margin-left: 39px;
+    color: rgba(10, 10, 10, 0.66);
+
+}
+.mission2{
+    height: 20px;
+    width: 600px;
+    font-size: 18px;
+    margin-top: -51px;
+    margin-left: 45px;
+    color: rgba(10, 10, 10, 0.66);
+    font-family: Inter;
+
+}
+.objective{
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    margin-top: -207px;
+    margin-left: 709px;
+    color: rgba(10, 10, 10, 0.66);
+
+}
+
+.objective2{
+
+    height: 20px;
+    width: 600px;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 706px;
+    color: rgba(10, 10, 10, 0.66);
+    font-family: Inter;
+}
+.normal{
+    height: 20px;
+    width: 600px;
+    font-size: 18px;
+    margin-top: 73px;
+    margin-left: 722px;
+    color: rgba(10, 10, 10, 0.66);
+    font-family: Inter;
+
+}
