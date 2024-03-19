@@ -16,7 +16,8 @@ body {
   
   .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* property is used in conjunction with Flexbox layout to control how flex 
+                        items are laid out within a flex container when they exceed the container's width or height.*/
   }
   
   ul {
@@ -43,7 +44,8 @@ body {
   }
   
   .footer-col h4::before {
-    content: "";
+    content: ""; /* property is used with pseudo-elements (::before and ::after) 
+                    to insert content before or after an element's actual content.*/
     position: absolute;
     left: 0;
     bottom: -10px;

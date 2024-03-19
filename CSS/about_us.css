@@ -205,9 +205,9 @@ pre {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
-  cursor: pointer;
+  cursor: pointer; /* mouse pointer*/
   border: none;
-  outline: none;
+  outline: none; /* draw a line around an element's border */
 }
 .arrow:hover {
   background-color: rgba(0, 0, 0, 0.7);
@@ -225,7 +225,7 @@ pre {
   overflow-x: auto;
   padding: 24px;
   gap: 24px;
-  cursor: grab;
+  cursor: grab; /* mouse pointer*/
   scroll-snap-type: x;
   scroll-padding-inline: 24px;
   scroll-behavior: smooth;

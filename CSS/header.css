@@ -92,7 +92,7 @@ header {
     display: none;
   }
   
-  @media (max-width: 800px) {
+  @media (max-width: 800px) { /* for responsive web page*/
     .hideOnMobile {
       display: none;
     }
@@ -147,7 +147,5 @@ header {
   
 
   /* header and navbar ends*/
-  
 
-  /* header and navbar ends*/
 
