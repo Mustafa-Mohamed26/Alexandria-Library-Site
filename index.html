@@ -5,7 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./CSS/style.css"/>
+  <link rel="stylesheet" href="./CSS/header.css"/>
+  <link rel="stylesheet" href="./CSS/footer.css" />
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
 </head>
 
 <body>
@@ -18,19 +25,19 @@
               <path
                 d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
             </svg></a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="./main_library.html">Main Library</a></li>
+        <li><a href="./planetarium_science_Center.html">Planetarium Science Center</a></li>
+        <li><a href="./about_us.html">About</a></li>
         <li><a href="#">Forum</a></li>
-        <li><a href="#">Login</a></li>
+        <li><a href="./sign_up.html">Sign Up</a></li>
       </ul>
       <ul>
-        <li class="logo"><a href="#"><img src="./images/logo.png" alt="logo"></a></li>
-        <li class="hideOnMobile"><a href="#">Blog</a></li>
-        <li class="hideOnMobile"><a href="#">Products</a></li>
-        <li class="hideOnMobile"><a href="#">About</a></li>
+        <li class="logo"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></li>
+        <li class="hideOnMobile"><a href="./main_library.html">Main Library</a></li>
+        <li class="hideOnMobile"><a href="./planetarium_science_Center.html">Planetarium Science Center</a></li>
+        <li class="hideOnMobile"><a href="./about_us.html">About</a></li>
         <li class="hideOnMobile"><a href="#">Forum</a></li>
-        <li class="hideOnMobile"><a href="#">Login</a></li>
+        <li class="hideOnMobile"><a href="./sign_up.html">Sign Up</a></li>
         <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
               viewBox="0 -960 960 960" width="26">
               <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
@@ -56,49 +63,72 @@
 
   <!-- main -->
   <main>
+
     <!-- section 1 mariam-->
-    <section>
-      <h1 class="fact"> Facts About The Ancient Library of Alexandria</h1>
-      <br>
-      <p class="fact2">
-        The ancient Alexandria library construction began in the reign of <a
-          href="https://www.egypttoursportal.com/alexander-the-great/"><strong>Alexander the Great</strong></a>
-        <br>and some
-        believe that it was built by Ptolemy II at the beginning of the 3rd century<br>
-        B.C (285B.C – 247B.C). The library
-        was viewed as the cultural center <br>as it contained various works of great
-        writers and thinkers in the world such as Plato, Homer, Herodotus, and Socrates of the ancient Greco-roman
-        times. It contained about 400,000 to 700,000 parchment<br> scrolls on countless subjects in many fields to the
-        biggest scholars on the plant. It was located on the
-        beautiful shore of the Mediterranean Sea and viewed as the
-        first public governmental library <br>in the ancient world which was
-        public for everyone not only Priests like ancient Egyptians.
-      </p>
-    </section>
-    <hr>
-    <section>
-      <h1 class=" alex"> Alexandria Library History </h1>
-      <br>
-
-      <img class="size-full wp-image-40801" src="image.png"
-        data-src="https://www.egypttoursportal.com/images/2017/11/Alexandria-Library-History-Egypt-Tours-Portal.jpg"
-        alt="Alexandria Library History - Egypt Tours Portal" width="400" height="300">
-      <br>
-      <p class="history">The library was able to merge the cultural and scientific aspects of both Pharaonic and Greco
-        civilization<br>,
-        every thinker, scholar, or writer that gave copies <br>of all their own works in the library for safekeeping
-        which
-        made it one of the most important landmarks in that time. The great library was caught <br>on a huge fire around
-        2000 years ago in<br> 48 BC which lead to the destruction of this great edifice and its contents of documents to
-        countless poets, historians, travelers, and scholars then it<br> was unfortunately destroyed by a series of
-        earthquakes between 11th and the 14th dynasty which led to the erase of any trace for the ancient construction.
-      </p>
-
+    <section class="section1">
+      <div class="section1-info">
+        <div class="section1-container">
+          <h1 class="fact"> Facts About The Ancient Library of Alexandria</h1>
+          
+          <p>
+            The ancient Alexandria library construction began in the reign of <a
+              href="https://www.egypttoursportal.com/alexander-the-great/"><strong>Alexander the Great</strong></a>
+            <br>and some
+            believe that it was built by Ptolemy II at the beginning of the 3rd century<br>
+            B.C (285B.C – 247B.C). The library
+            was viewed as the cultural center <br>as it contained various works of great
+            writers and thinkers in the world such as Plato, Homer, Herodotus, and Socrates of the ancient Greco-roman
+            times. It contained about 400,000 to 700,000 parchment<br> scrolls on countless subjects in many fields to the
+            biggest scholars on the plant. It was located on the
+            beautiful shore of the Mediterranean Sea and viewed as the
+            first public governmental library <br>in the ancient world which was
+            public for everyone not only Priests like ancient Egyptians.
+          </p>
+        </div>
+      </div>
     </section>
 
+    <section class="section2">
+      <div class="section2-info">
+        <h1> Alexandria Library History </h1>
+        <div class="section2-container">
 
-    <!-- section 2 veronia-->
-    <section></section>
+          <div class="section2-inner-left">
+            <img src="./images/image.png" alt="Alexandria Library History - Egypt Tours Portal">
+          </div>
+
+          <div class="section2-inner-right">
+            <p>The library was able to merge the cultural and scientific aspects of both Pharaonic and Greco
+              civilization<br>,
+              every thinker, scholar, or writer that gave copies <br>of all their own works in the library for safekeeping
+              which
+              made it one of the most important landmarks in that time. The great library was caught <br>on a huge fire around
+              2000 years ago in<br> 48 BC which lead to the destruction of this great edifice and its contents of documents to
+              countless poets, historians, travelers, and scholars then it<br> was unfortunately destroyed by a series of
+              earthquakes between 11th and the 14th dynasty which led to the erase of any trace for the ancient construction.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="map">
+      <div class="map-info">
+        <div class="title">
+          <h2>Map of Alexandria library</h2>
+        </div>
+
+        <div class="map-container">
+          <img src="./images/map.jpeg" alt="map" usemap="#alex">
+          <map name="alex">
+            <area shape="rect" coords="383,80,711,240" href="main_library.html" alt="Main library">
+            <area shape="rect" coords="259,165,587,325" href="planetarium_science_Center.html" alt="Planetarium Science Center">
+          </map>
+        </div>
+      </div>
+    </section>
   </main>
   <!-- footer emad-->
 
@@ -106,13 +136,20 @@
   <footer>
     <div class="footer">
       <div class="container">
-        <h1>We Are Social</h1>
-        <h4 class="copyright">&copy; 2024 <b>Kasper</b> All Right Reserved</h4>
+        <img decoding="async" src="images/logo.png" alt="Logo" />
+        <p>We Are Social</p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fas fa-home"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <p class="copyright">&copy; 2024 <span>Kasper</span> All Right Reserved</p>
+      </div>
     </div>
-  </div>
   </footer>
   <!-- End Footer -->
 
-  <script src="index.js"></script>
+  <script src="./JavaScript/index.js"></script>
 </body>
 </html>
