@@ -1,0 +1,109 @@
+/* body standard*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* body standard ends*/
+
+section {
+  background-color: white;
+  padding: 15px;
+}
+.section-info {
+  margin: 35px;
+  padding: 30px;
+  border: 5px solid rgb(60, 199, 246);
+  border-radius: 16px;
+  box-shadow: 10px 2px 10px 8px rgba(0, 0, 0, 0.1);
+}
+.title {
+  font-size: 2.5rem;
+  color: rgb(60, 199, 246);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.para-1 p {
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.para-1 img{
+    text-align: left;
+  border-radius: 30px;
+  box-shadow: 10px 2px 10px 8px rgba(0, 0, 0, 0.2);
+  width: 40%;
+  max-width: 800px;
+  height: auto;
+  margin-top: 15px;
+  margin-right: 20px;
+  float: left;
+}
+.paras {
+  margin-top: 20px;
+  display: flex;
+  padding: 20px;
+}
+.paras h3 {
+  font-size: 2rem;
+  color: rgb(60, 199, 246);
+  text-align: left;
+  margin-bottom: 15px;
+}
+.first_col {
+  margin-right: 200px;
+}
+.row1 {
+  border-left: 5px solid rgb(60, 199, 246);
+  padding-left: 20px;
+}
+.row2 {
+  border-left: 5px solid rgb(60, 199, 246);
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.second_col {
+  border-left: 5px solid rgb(60, 199, 246);
+  padding-left: 20px;
+}
+.second_col ul li {
+  margin-top: 30px;
+  margin-left: 10px;
+  padding-top: 10px;
+  list-style-type: circle;
+  font-size: 1.1em;
+}
+.clock {
+  text-align: center;
+  margin-left: 580px;
+  padding: 30px;
+  width: 350px;
+  border: 5px solid rgb(60, 199, 246);
+  border-radius: 16px;
+  box-shadow: 10px 2px 10px 8px rgba(0, 0, 0, 0.1);
+}
+.clock p {
+  font-size: 3em;
+  color: rgb(0, 0, 0);
+}
+.clock button {
+  background-color: rgb(60, 199, 246); /* Green */
+  border: none;
+  border-radius: 16px;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+.clock button:hover {
+  background-color: rgb(25, 148, 189);
+  color: white;
+}
